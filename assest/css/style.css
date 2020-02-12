@@ -1,0 +1,277 @@
+/* 
+------
+Default Styling
+------
+ */
+
+
+body {
+    
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+}
+nav{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+}
+button {
+    font-family: 'Nunito Sans', sans-serif;
+    height: 4em;
+     width: 15em;
+     background-color: #F9A826;
+     border: none;
+     color: white;
+     border-radius: 2em;
+}
+
+/* 
+------
+Header Styling
+------
+ */
+
+.header-right {
+    padding-top: 1em;
+    display: block;
+    right: 1em;
+    
+
+}
+
+.logo {
+    width: 5em;
+    padding-left: 1em;
+}
+
+.nav-link {
+    padding-right: 3em;
+    text-decoration: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: black;
+}
+
+.nav-button {
+    height: 3em;
+    width: 10em;
+    
+}
+
+/* 
+------
+Intro Styling
+------
+ */
+
+ .intro-con {
+     padding-top: 10em;
+     display: flex;
+    
+ }
+ 
+ .intro-col-1 {
+     width: 50%;
+     
+ }  
+
+ .intro-illus { 
+     justify-content: space-between;
+     height: 30em;
+     
+     
+      
+ }
+
+ .intro-col-2 {
+     width: 100%;
+     
+ }
+
+ .intro-message {
+     font-size: 1.8em;
+     text-align: text-align;
+     line-height: 1.5em;
+     display: block;
+     margin-top: 20%;
+     margin-left: 20%;
+     font-weight: 700;
+ }
+
+ .intro-btn {
+     display: block;
+     margin-left: 40%;
+     
+ }
+
+ /* 
+------
+More Info Styling
+------
+ */
+ 
+ .more-info-col-1 {
+     color: rgb(0, 0, 0);
+
+ }
+
+.more-info-col-child {
+    margin-bottom: 5em;
+    font-size: 1.2rem;
+}
+
+.more-info-col-child h3 {
+    font-size: 1.6rem;
+}
+
+
+ .more-info-con {
+    background-color: #F9A826;
+     padding-top: 7em;
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: -0.5em; 
+     padding-bottom: 5em;
+ }
+
+ .more-info-col-2 {
+     width: 40%;
+ }
+
+ .more-info-col-2 img {
+    width: 100%;
+    margin-right: -15em;
+ }
+
+
+
+  /* 
+------
+Download Section Styling
+------
+ */
+
+ .download-header {
+     text-align: center;
+     font-size: 3rem;
+     font-family: 'Bai Jamjuree', sans-serif;
+ }
+
+ .download-section {
+     display: flex;
+ }
+
+ .download-section-illus {
+     width: 40em;
+ }
+
+ .download-section-col-2 {
+        text-align: center;
+        line-height: 1.5em;
+        display: block;
+        margin-top: 10%;
+        margin-left: 12%;
+        font-size: 1.5rem;
+        font-weight: 700;
+ }
+ .download-btn-ios {
+     background-color: rgb(42, 39, 63);
+ }
+
+  /* 
+------
+Our Partners Section Styling
+------
+ */
+
+ .partner-section-header {
+     text-align: center;
+     margin-top: 8em;
+     font-size: 1.3rem;
+ }
+
+.partner-section-header h1 {
+    font-size: 3rem;
+     font-family: 'Bai Jamjuree', sans-serif;
+     margin: 0;
+}
+
+.partner-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.our-partner-logo {
+    width: 7em;
+   
+}
+
+  /* 
+------
+Footer Section Styling
+------
+ */
+
+footer {
+    background-color: rgb(42, 39, 63); 
+    width: 100%;
+    margin-bottom: -1em;
+    margin-top: 3em;
+    padding: 8em 0 0.5em 0;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.footer-col-con {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-col-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-col-1 a {
+    padding-bottom: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-logo {
+    padding-bottom: 2em;
+    width: 4em;
+}
+
+.footer-form {
+    height: 3em;
+     width: 18em;
+     background-color: transparent;
+     border-style: solid;
+     border-color: #F9A826;
+     color: white;
+     border-radius: 2em;
+     padding-left: 1em;
+}
+
+.footer-form-btn {
+    width: 8em;
+    height: 3.5em;
+    margin: 1em;
+}
+
+.footer-social-link {
+    padding: 0.5em;
+}
+
+.signature {
+   text-align: center;
+   margin-top: 6em;
+   color:  #F9A826;
+}
+
+
+
+
