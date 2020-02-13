@@ -25,6 +25,14 @@ button {
      border: none;
      color: white;
      border-radius: 2em;
+     outline: none;
+}
+
+@media (max-width: 990px){
+    body{
+        font-size: 7px;
+        width: 100%;
+    }
 }
 
 /* 
@@ -58,6 +66,20 @@ Header Styling
     width: 10em;
     
 }
+
+/* 
+------
+Header Styling (Mobile Resposniveness)
+------
+ */
+
+ @media (max-width: 990px){
+    .nav-button {
+        width: 10em;
+        font-size: 0.5rem;
+    }
+ }
+
 
 /* 
 ------
@@ -104,6 +126,41 @@ Intro Styling
      margin-left: 40%;
      
  }
+ /* 
+------
+Introduction Styling (Mobile Responsiveness)
+------
+ */
+ 
+ @media (max-width: 990px){
+     .intro-con {
+         flex-direction: column;
+         padding-top: 8em;
+         
+     }
+     .intro-col-1 {
+         width: 100%;
+     }
+    .intro-illus {
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+    .intro-message {
+        font-size: 0.8rem;
+        text-align: center;
+        margin: 2rem 0 1em 0;
+    }
+
+    .intro-btn {
+        width: 10em;
+        height: 2.5em;
+        display: block;
+        margin: auto;
+        margin-bottom: 2em;
+    }
+
+ }
 
  /* 
 ------
@@ -118,11 +175,11 @@ More Info Styling
 
 .more-info-col-child {
     margin-bottom: 5em;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .more-info-col-child h3 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 
@@ -142,6 +199,42 @@ More Info Styling
  .more-info-col-2 img {
     width: 100%;
     margin-right: -15em;
+ }
+
+ 
+ /* 
+------
+More Info Styling (Mobile Responsiveness)
+------
+ */
+
+ @media (max-width: 990px){
+     .more-info-con {
+         flex-direction: column-reverse;
+         width: 100%;
+     }
+     .more-info-col-child {
+         margin-bottom: 3em;
+     }
+
+     .more-info-col-child h3 {
+         font-size: 0.7rem;
+         text-align: center;
+     }
+     .more-info-col-child p {
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    .more-info-col-2 {
+        width: 100%;
+    }
+
+    .more-info-col-2 img {
+        width: 60%;
+        display: block;
+        margin: 2em auto 2em auto;
+    }
  }
 
 
@@ -178,10 +271,42 @@ Download Section Styling
  .download-btn-ios {
      background-color: rgb(42, 39, 63);
  }
+   /* 
+------
+Download Section Styling (Mobile Resposniveness)
+------
+ */
+
+ @media (max-width: 990px){
+     .download-section {
+         flex-direction: column;
+     }
+     
+     .download-header {
+         font-size: 1.5rem;
+         margin: 2em 0 1em 0;
+     }
+     .download-section-illus {
+         width: 50%;
+         display: block;
+         margin: auto;
+     }
+     .download-section-col-2 {
+         line-height: 1em;
+         margin: 0;
+     }
+     .download-section-col-2 p {
+         font-size: 0.8rem;
+     }
+     .download-btn-ios {
+         margin-top: 1em;
+     }
+         
+ }
 
   /* 
 ------
-Our Partners Section Styling
+Our Partners Section Styling 
 ------
  */
 
@@ -197,6 +322,8 @@ Our Partners Section Styling
      margin: 0;
 }
 
+
+
 .partner-section {
     display: flex;
     justify-content: space-evenly;
@@ -209,11 +336,36 @@ Our Partners Section Styling
    
 }
 
+ /* 
+------
+Our Partners Section Styling (Mobile Responsiveness)
+------
+ */
+
+ @media (max-width: 990px){
+    .partner-section-header {
+        font-size: 0.8rem;
+    }
+    .partner-section-header h1 {
+        font-size: 2rem;
+    }
+    .partner-section {
+        flex-direction: column;
+    }
+    .our-partner-logo {
+        display: block;
+        margin: auto;
+        width: 15em;
+        margin-bottom: 6em;
+    }
+ }
+
   /* 
 ------
 Footer Section Styling
 ------
  */
+ 
 
 footer {
     background-color: rgb(42, 39, 63); 
@@ -254,12 +406,14 @@ footer {
      color: white;
      border-radius: 2em;
      padding-left: 1em;
+     outline: none;
 }
 
 .footer-form-btn {
     width: 8em;
     height: 3.5em;
     margin: 1em;
+    outline: none;
 }
 
 .footer-social-link {
@@ -270,6 +424,183 @@ footer {
    text-align: center;
    margin-top: 6em;
    color:  #F9A826;
+}
+
+ /* 
+------
+Footer Section Styling (Mobile Responsiveness)
+------
+ */
+ @media (max-width: 990px){
+
+ .footer-col-con {
+     flex-direction: column ;
+ }
+
+ .logo {
+     display: block;
+     margin: auto;
+ }
+
+ .footer-col {
+     display: block;
+     margin: auto;
+ }
+ .footer-col-1 {
+     text-align: center;
+     margin: 1.5em 0 1.5em 0;
+ }
+ .footer-form {
+     
+     width: 13em;
+     height: 2em;
+ }
+ .footer-form-btn {
+     height: 2em;
+     width: 5em;
+ }
+}
+
+/*
+----------------------------------
+------------------------
+----------------------------------
+------------------------
+About Page Styling
+------------------------
+------------------------------------
+------------------------
+------------------------------------
+*/
+
+.about-us-con {
+    padding: 8em 0 5em 0;
+    text-align: center;
+
+}
+
+.about-us-con h1 {
+    color: rgb(249, 168, 38, 1.6);
+}
+
+.about-us-con p {
+    line-height: 1.7em;
+    color:  rgb(42, 39, 63); ;
+}
+
+.aside-con {
+    margin: 0;
+}
+
+.aside-con-col img {
+    width: 60% ;
+}
+
+.aside-con h1 {
+    text-align: center;
+    margin-top: 4em;
+    color:  rgb(42, 39, 63); ;
+}
+
+.aside-con button {
+    display: block;
+    margin: auto;
+    border-color: rgb(42, 39, 63); 
+    border-style: solid;
+    background-color: transparent;
+    margin-top: 1em;
+}
+
+.footer-about {
+    margin-top: 0;
+}
+
+@media (max-width: 990px) {
+    .aside-con button {
+        height: 2.5em;
+        width: 10em;
+    }
+}
+
+/*
+----------------------------------
+------------------------
+----------------------------------
+------------------------
+Contact Page Styling
+------------------------
+------------------------------------
+------------------------
+------------------------------------
+*/
+
+.contact-con {
+    display: flex;
+    padding-top: 10em;
+    justify-content: space-evenly;
+}
+
+.contact-con-col {
+    width: 50%;
+}
+
+.contact-con-col img {
+   width: 100%;
+}
+
+.contact-form {
+    width: 30%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    height: 3em;
+    margin-bottom: 2em;
+    border-color: #F9A826;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0.1em;
+    padding-left: 1em;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 1em;
+    outline: none;
+}
+
+.contact-form textarea {
+    height:8em;
+    padding-top: 1em;
+}
+
+@media (max-width: 990px){
+    .contact-con {
+        flex-direction: column;
+       
+    }
+    .contact-con-col {
+        width: 100%;
+        margin-bottom: 3em;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .contact-form input, .contact-form textarea {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+    }
+
+    .contact-form button, .contact-form input {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 2.5em;
+    }
 }
 
 

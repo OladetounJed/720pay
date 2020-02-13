@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>720Pay</title>
-    <link type="text/css" href="/assest/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assest/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Nunito+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -15,48 +15,51 @@
     <div class="header-right">
         <a href="/about.html" class="nav-link">About</a>
         <a href="/contact.html" class="nav-link">Contact</a>
-        <button>My Dashboard</button>
+        <a href="/dashboard.html" class="nav-link"><button class="nav-button">My Dashboard</button></a>
     </div>
     </nav>
 </header>
 <div class="contact-con">
+    <div class="contact-con-col">
     <img src="/assest/img/undraw_contact_us_15o2.svg">
 </div>
 <div class="contact-form">
     <form>
         <input type="text" placeholder="Your First Name">
         <input type="text" placeholder="Your Email Address">
-        <textarea>Your Message</textarea>
+        <textarea placeholder="Write Your Message"></textarea>
        <button>Holla Us!</button>
     </form>
 </div>
+</div>
 <footer>
+    <div class="footer-col-con">
         <div class="footer-col">
-                <img src="/assest/img/720pay_logo-removebg-preview.png">
-                <div>
-                  <img src="/assest/img/icon-facebook.svg" alt="Facebook Logo">
-                  <img src="/assest/img/icon-youtube.svg" alt="Youtube Logo">
-                  <img src="/assest/img/icon-twitter.svg" alt="Twitter Logo">
-                  <img src="/assest/img/icon-instagram.svg" alt="Instagram Logo">
+                <img class="logo footer-logo" src="/assest/img/720pay.png" alt="720Pay Logo">
+                <div class="footer-social-link-con">
+                  <img class="footer-social-link" src="/assest/img/icon-facebook.svg" alt="Facebook Logo">
+                  <img class="footer-social-link"  src="/assest/img/icon-youtube.svg" alt="Youtube Logo">
+                  <img class="footer-social-link"   src="/assest/img/icon-twitter.svg" alt="Twitter Logo">
+                  <img class="footer-social-link"   src="/assest/img/icon-instagram.svg" alt="Instagram Logo">
                 </div>
                </div> 
-               <div class="footer-col">
+               <div class="footer-col-1">
                  <a href="#">Home</a>
                  <a href="#">Pricing</a>
                  <a href="#">Products</a>
                  <a href="#">About Us</a>
                 </div>
-                <div class="footer-col">
+                <div class="footer-col-1">
                     <a href="#">Careers</a>
                     <a href="#">Community</a>
                     <a href="#">Privacy Policy</a>
                    </div>
                    <div class="footer-col">
-                     <input placeholder="Updates in your inbox">
-                     <button>Go</button>
-                     <p>Copyright 2020. All Rights Reserved</p>
-            
+                     <input class="footer-form" placeholder="Updates in your inbox">
+                     <button class="footer-form-btn">Go</button>
                    </div>
+                </div>
+                <p class="signature">Jed Made. Set Awon Frontend Geng</p>
 </footer>
 </body>
 </html>
