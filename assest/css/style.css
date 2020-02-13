@@ -28,9 +28,13 @@ button {
      outline: none;
 }
 
+input {
+    outline: none;
+}
+
 @media (max-width: 990px){
     body{
-        font-size: 7px;
+        font-size: 9px;
         width: 100%;
     }
 }
@@ -574,6 +578,18 @@ form {
     height:8em;
     padding-top: 1em;
 }
+/*
+----------------------------------
+------------------------
+----------------------------------
+------------------------
+Contact Page Styling (Mobile Resposniveness)
+------------------------
+------------------------------------
+------------------------
+------------------------------------
+*/
+
 
 @media (max-width: 990px){
     .contact-con {
@@ -602,6 +618,83 @@ form {
         height: 2.5em;
     }
 }
+
+/*
+----------------------------------
+------------------------
+----------------------------------
+------------------------
+Login Page Styling
+------------------------
+------------------------------------
+------------------------
+------------------------------------
+*/
+.login-form-container {
+    background-color: #F9A826;
+    margin-bottom: -4em;
+    height: 50em;
+    padding-top: 7em;
+}
+
+.login-form {
+    
+    width: 80%;
+    display: block;
+    margin: auto;
+    
+    
+}
+
+.login-form-header {
+    text-align: center;
+}
+
+form input {
+    height: 4em;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
+    padding-left: 2em;
+    background-color: transparent;
+    border-color: rgb(255, 255, 255, 0.6);
+    border-style: solid;
+    border-radius: 2em;
+}
+
+.sign-in-btn {
+    display: block;
+    margin: auto;
+    background-color: rgb(42, 39, 63);
+    color: #F9A826 ;
+    
+}
+
+.forgot-password {
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1em;
+    color: rgb(42, 39, 63);
+    margin-top: 1em;
+}
+
+.other-sign-means {
+    
+    margin-left: 44%;
+    margin-top: 2em;
+}
+
+
+.other-sign-means img {
+    width: 2em;
+    margin-right: 4em;
+
+
+
 
 
 
