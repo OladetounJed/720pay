@@ -29,6 +29,15 @@ button {
      outline: none;
 }
 
+button:hover, button:active {
+    background-color: rgb(42, 39, 63);
+}
+
+a:hover, a:active {
+    color:  #F9A826;
+    background-color: transparent;
+}
+
 input {
     outline: none;
 }
@@ -38,6 +47,14 @@ input {
         font-size: 9px;
         width: 100%;
     }
+
+     a:active, a:visited {
+        color:  #F9A826;
+        background-color: white;
+        outline: none;
+    }
+
+    
 }
 
 /* 
@@ -825,6 +842,12 @@ Dashboard Page Styling
 
 .dashboard-header {
     background-color: rgb(249, 168, 38, 0.4);
+}
+
+.incorrect-password {
+    text-align: center;
+    color: red;
+    font-weight: bold;
 }
 
 .action-con button {
