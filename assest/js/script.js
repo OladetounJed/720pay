@@ -8,14 +8,11 @@
  email.addEventListener('keyup', function (event) {
     isValidEmail = email.checkValidity();
     
-    if(isValidEmail){
-        signIn.disabled = false;
-    }
-    else {
-        signIn.disabled = true;
-    }
+  
   });
 
+  
+console.log(email.value)
  
 
   signIn.addEventListener('click', function (event) {
@@ -23,7 +20,7 @@
         window.location.href = "dashboard.html";
     }
 
-    else {
-        email.style.borderColor = red;
-    }
+
+
+    
   });
